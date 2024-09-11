@@ -1,0 +1,36 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color orange
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id animationView
+id btnCamara
+id btnContinuar
+id etCedula
+id etCelular
+id etCorreo
+id etEdad
+id etNombre
+id ivImagen
+id profile_image
+id tvCedula
+id tvCelular
+id tvCorreo
+id tvEdad
+id tvNombre
+id tvSaludo
+id tvTitulo
+layout activity2_main
+layout activity_main
+layout activity_splash
+mipmap ic_launcher
+mipmap ic_launcher_round
+raw animacion
+raw imagen
+string app_name
+style Base.Theme.App_2
+style Theme.App_2
+xml backup_rules
+xml data_extraction_rules

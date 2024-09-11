@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="138dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@raw/imagen"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/tvSaludo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="¡Hola!" />
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cédula: "
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edad: "
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvCelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celular: "
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: "
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Abrir Cámara"
+        android:backgroundTint="@color/orange"
+        android:textColor="@android:color/white"
+        />
+
+    <ImageView
+        android:id="@+id/ivImagen"
+        android:layout_width="138dp"
+        android:layout_height="139dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
